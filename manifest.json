@@ -2,21 +2,16 @@
     "manifest_version": 3,
     "name": "CRT Overlay",
     "version": "1.0",
-    "description": "Applies a CRT-style overlay to any webpage.",
+    "description": "Applies a CRT-style overlay to webpages.",
     "permissions": ["scripting", "activeTab"],
     "action": {
       "default_popup": "popup.html",
       "default_icon": "icon.png"
     },
-    "background": {
-      "service_worker": "background.js"
-    },
-    "content_scripts": [],
     "icons": {
       "16": "icon.png",
       "48": "icon.png",
       "128": "icon.png"
     }
   }
-
   
